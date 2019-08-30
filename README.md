@@ -17,7 +17,7 @@ docker run -p:port:8080 -d --name 容器名  image:tag
 docker pull nginx:alpine
 
 
-docker run -d -p 8082:80 --name runoob-nginx-test-web 
+docker run -d -p 8082:80 --name nginx 
 -v /nginx/www:/usr/share/nginx/html 
 -v /nginx/conf/nginx.conf:/etc/nginx/nginx.conf 
 -v /nginx/logs:/var/log/nginx 
